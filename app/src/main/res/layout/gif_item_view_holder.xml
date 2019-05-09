@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gif_view_item_height_landscape">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gif_view_item_title_height"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/gif_view_item_title_padding"
+            android:paddingRight="@dimen/gif_view_item_title_padding"
+            android:background="@drawable/item_gradient"
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:maxLines="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

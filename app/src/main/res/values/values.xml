@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gif_view_item_height_landscape">220dp</dimen>
+    <dimen name="gif_view_item_height_squared">350dp</dimen>
+
+    <dimen name="gif_view_item_title_height">64dp</dimen>
+    <dimen name="gif_view_item_title_padding">12dp</dimen>
+
+    <dimen name="progress_view_item_height">64dp</dimen>
+    <dimen name="progress_view_item_padding">8dp</dimen>
+</resources>

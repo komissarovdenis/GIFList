@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GIFList</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="connection_error">There is a connection problem. Please, try again</string>
+</resources>
